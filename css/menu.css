@@ -1,0 +1,274 @@
+ul#menu li {
+	/*margin: 0 5px;
+	padding: 0 0 8px;*/
+	float: left;
+	position: relative;
+	list-style: none;
+}
+
+
+/* main level link */
+ul#menu a {
+	white-space: nowrap;
+	/*font-weight: bold;
+	color: #e7e5e5;
+	text-decoration: none;
+	display: block;
+	padding:  8px 20px;
+	margin: 0;
+
+	-webkit-border-radius: 1.6em;
+	-moz-border-radius: 1.6em;
+
+	text-shadow: 0 1px 1px rgba(0,0,0, .3);*/
+}
+ul#menu a:hover {
+	/*background: #000;
+	color: #fff;*/
+}
+
+/* main level link hover */
+/*ul#menu .current a, ul#menu li:hover > a, */ul#menu li:hover > span {
+	background: #09334C;
+
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	/*color: #444;
+	border-top: solid 1px #f8f8f8;
+
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	box-shadow: 0 1px 1px rgba(0,0,0, .2);
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);*/
+}
+
+/* sub levels link hover */
+ul#menu ul li:hover a, ul#menu li:hover li a {
+    border: 2px solid #09334C;
+}
+ul#menu ul li:hover a:hover, ul#menu li:hover li a:hover {
+	background-color: #688AA3;
+	/*color: #666;*/
+	width: 161px;
+	/*background: none;
+	border: none;
+	color: #666;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;*/
+}
+ul#menu ul a:hover {
+	/*background: #0078ff url(img/gradient.png) repeat-x 0 -100px !important;
+	color: #fff !important;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+
+	text-shadow: 0 1px 1px rgba(0,0,0, .1);*/
+	background: url("../img/menu_arrow.png") no-repeat scroll 5px 50% transparent;
+}
+
+/* dropdown */
+ul#menu li:hover > ul {
+	display: block;
+}
+
+/* level 2 list */
+ul#menu ul {
+	display: none;
+
+	margin: 0;
+	padding: 0;
+	width: 185px;
+	position: absolute;
+	top: 26px;
+	left: 0;
+	background: #09334C;
+	z-index: 9999;
+	/*border: solid 1px #b4b4b4;*/
+
+	-webkit-border-radius: 0 5px 5px 5px;
+	-moz-border-radius: 0 5px 5px 5px;
+	border-radius: 0 5px 5px 5px;
+
+	/*-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .3);
+	box-shadow: 0 1px 3px rgba(0,0,0, .3);*/
+}
+ul#menu ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#menu ul a {
+	/*font-weight: normal;
+	text-shadow: 0 1px 0 #fff;*/
+}
+
+/* level 3+ list */
+ul#menu ul ul {
+	left: 181px;
+	top: 0;
+}
+ul#menu ul li > a {
+	border-radius: 0;
+	margin: 0;
+	text-align: left;
+	text-indent: 15px;
+}
+ul#menu ul li > span {
+	text-align: left;
+	text-indent: 15px;
+}
+ul#menu ul li > span.submenu {
+	background: url("../img/submenu_arrow.png") no-repeat scroll right 50% transparent;
+	border-radius: 0;
+	border: 2px solid #09334C;
+	margin-right: 2px;
+}
+ul#menu ul li > span.active {
+	background-color: #688AA3;
+}
+/* rounded corners of first and last link */
+ul#menu ul li:first-child > a {
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;
+}
+ul#menu ul li:last-child > a,
+ul#menu ul li:last-child > span {
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+ul#menu ul li:last-child > span.active {
+	-webkit-border-radius: 0 0 0 5px;
+	-moz-border-radius: 0 0 0 5px;
+	border-radius: 0 0 0 5px;
+}
+ul#menu ul li:only-child > a {
+	-webkit-border-radius: 0 5px 5px 5px;
+	-moz-border-radius: 0 5px 5px 5px;
+	border-radius: 0 5px 5px 5px;
+}
+
+/* clearfix */
+ul#menu:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ul#menu {
+	display: inline-block;
+} 
+html[xmlns] ul#menu {
+	display: block;
+}
+ 
+* html ul#menu {
+	height: 1%;
+}
+
+.menu {
+	background: none repeat scroll 0 0 #688AA3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 3px 3px #CCC;
+	-webkit-box-shadow: 2px 3px 3px #CCC;
+	box-shadow: 2px 3px 3px #CCC;
+	color: #FFF;
+	height: 40px;
+}
+
+.menu ul {
+	list-style: none outside none;
+	margin: 0 0 0 10px;
+	padding: 7px 0 0;
+}
+
+.menu ul li {
+	line-height: 16px;
+}
+.menu ul li a, .menu ul li span {
+	color: #FFF;
+	display: block;
+	font-size: 16px;
+	font-variant: small-caps;
+	margin-right: 5px;
+	outline: medium none;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.menu ul li a:hover, .menu ul li a.active, .menu ul li span.active {
+	background-color: #09334C;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.menu ul li a.link:hover {
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+.menu ul li a.last, .menu ul li span.last {
+	margin-right: 10px;
+}
+
+ul#menu li.right {
+	float: right;
+}
+
+ul#menu a.homepage {
+	background-image: url("../img/home.png");
+	background-position: 50% center;
+	background-repeat: no-repeat;
+	margin: 0 5px 0 0;
+	padding: 5px 10px 5px 15px;
+}
+
+ul#menu span.admin {
+	background-image: url("../img/admin.png");
+	background-position: 50% center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	height: 16px;
+	margin: 0 5px 0 0;
+	padding: 5px 10px 5px 15px;
+	width: 16px;
+}
+ul#menu li:hover > span.admin {
+	background-color: #09334C;
+	background-image: url("../img/admin.png");
+	background-position: 50% center;
+	background-repeat: no-repeat;
+}
+ul#menu li:hover > a.link {
+	background-color: #09334C;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+ul#menu span.search {
+	background-image: url("../img/search.png");
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin: 0 5px 0 0;
+	padding: 5px 10px 5px 30px;
+}
+ul#menu li:hover > span.search {
+	background-color: #09334C;
+	background-image: url("../img/search.png");
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

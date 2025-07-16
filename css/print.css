@@ -1,0 +1,1198 @@
+/* CSS Document for BRESCIA | RBB print style */
+*{margin:0; padding:0;}
+html, body {
+}
+body {
+	font: 0.7em/1.3em Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	background:#FFF;
+	width: 760px;
+}
+.expander {
+}
+
+.innerwrapper {
+} /* this padding &quot;traps&quot; interior margins so they do not escape the innerwrapper. */
+
+/* \*/
+* html .sizer,
+* html .expander,
+* html .innerwrapper {}
+/* Modified Holly hack, so .expander does not get a bug-inducing percentage dimension. */
+body table td{
+	text-align:left;
+	vertical-align:top;
+}
+a:link{color:#000000; text-decoration:none;} 
+a:visited{color:#000000; text-decoration:none;} 
+a:hover{color:#000000; text-decoration:underline;} 
+a:active{color:#000000; text-decoration:none;}
+
+#utility a:link{color:#000000;} 
+#utility a:visited{color:#202020;} 
+#utility a:hover{color:#000000;} 
+#utility a:active{color:#000000;}
+/* IMMAGINI CORREDO */
+img{
+	border: 0;
+}
+#content #main .colleft img {
+	float:left; 
+	margin:4px 12px 10px 0px;
+	border:1px solid #CCCCCC; 
+	display:block;
+}
+/*separatori*/
+hr{
+	display: none;
+}
+div.dr{
+	display: none;
+}
+div.drdot{
+	display: none;
+}
+.colleft div.drdot{
+	display: none;
+}
+div.drdotnews{
+	display: none;
+}
+div.drdotbanner{
+	display: none;
+}
+#directAccess div.drdot{
+	display: none;
+}
+/*extra container stemma istituzionale e data*/
+div.stemma{
+	position:absolute;
+	top:15px;
+	left:1.8%;
+	z-index:100;
+	display: none;
+}
+p.today{
+	display: none;
+}
+/*extra container titolo portale e utility*/
+#titolo{
+	background-color:#FFFFFF;
+	height:50px;
+	padding:5px 2%;	
+	position:relative;
+	display: none;
+}
+#utility  {
+	display: none;
+}
+/*struttura pagina*/
+#container {
+	margin:0px 1% 5px 1%;
+}
+#header{
+	width:100%; 
+	position:relative;
+	display: none;
+}
+/* tab di accesso agli altri portali */
+#globalNav	{
+	display: none;
+}
+#switchportali {
+	display: none;
+}
+/*navigazione sottoportali provincia*/
+#altriportali{
+	display: none;
+}
+
+/* gestisce testata con titolo e sfondo */
+#testata {
+	margin-top: 30pt;
+	display: none;
+}
+
+/* gestisce il layout liquido */
+#wrapper {
+	border-top: 0px solid #b1ced3;	
+	background:#FFFFFF;
+	width:100%;
+}
+/******* COLONNA 4 - MENU DI NAVIGAZIONE ******/
+#navigation{
+	display:none;
+}
+/******* COLONNA 3 - DIRECT ACCESS - IN HP: NAVIGAZIONE PER EVENTI E TARGET  - nelle INTERNE: NAVIGAZIONE SEZIONE******/
+#content #directAccess{
+display: none;
+	
+}
+/******* COLONNA 1/2 - CONTENT ******/
+
+#content{
+}
+/*struttura contenuti in homepage*/
+/*typography*/
+
+#content h1{
+	font: bold 200% Georgia, "Times New Roman", Times, serif;
+	border-bottom: 1px solid #CDCDCD;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin:4px 0px 6px 0px;	
+	padding:5px;
+	clear: left;
+}
+#content h2{
+	font: bold 180% Georgia, "Times New Roman", Times, serif;
+	padding:5px 5px 0px 5px;
+}
+#content h3{
+	font: bold 150% Georgia, "Times New Roman", Times, serif;
+}
+#content h3.autore{
+	font: normal 1em/1em Arial, Georgia, Garamond, Times, "Times New Roman", serif;
+	text-transform:uppercase;
+}
+#content h3.tipoevento{
+	font: bold 0.9em/1em Georgia, Garamond, Times, "Times New Roman", serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+#content h4{
+	font: normal 125% Georgia, "Times New Roman", Times, serif;
+	text-transform:none;
+}
+#content h5{
+	font: normal 125% Georgia, "Times New Roman", Times, serif;
+	text-transform:none;
+}
+#content h6{
+	font: normal 125% Georgia, "Times New Roman", Times, serif;
+	text-transform:none;
+}
+/*paragrafi e liste*/
+#content p {
+	padding:5px;
+}
+#content .colleft p {
+	font: 1em/1.5em Verdana, Arial, Helvetica, sans-serif;
+}
+#content .colright p {
+	font: 1em/1.5em Verdana, Arial, Helvetica, sans-serif;
+}
+#content p.primopiano{
+	font: 1em/1.6em Verdana, Arial, Helvetica, sans-serif;
+	margin:0px 0 8px 0px;
+}
+#content #main td.colleft p.tipotema{
+	font: italic .9em/1em Georgia, Garamond, Times, "Times New Roman", serif;
+	margin:6px 0 4px 6px;
+	padding:0;
+}
+#content p.tipotema a{
+	font: bold .8em/1.5em Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	margin-left:2px;
+}
+#content p.quandoterritorio{
+	font: normal small-caps 1em/1em Georgia, Garamond, Times, "Times New Roman", serif;
+	letter-spacing: 0px;
+}
+#content p.quandoterritorio span.date-display-start{
+	font: normal .8em/1em Georgia, Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	visibility: visible;
+}
+#content p.quandoterritorio span.date-display-end{
+	font: normal .8em/1em Georgia, Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	visibility: visible;
+}
+#content p.quandoterritorio span.date-display-single{
+	font: normal .8em/1em Georgia, Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	visibility: visible;
+}
+#content p.tipo{
+	font: bold 0.9em/1em Georgia, Garamond, Times, "Times New Roman", serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+#content p.luogo{
+	font: bold .85em/1.2em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+#content p.giorno{
+	font: normal .85em/1.2em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+#content p.quandocomunicato{
+	font: normal .95em/1em Georgia, Garamond, Times, "Times New Roman", serif;
+	letter-spacing: -1px;
+	margin:0;
+	padding:4px 0 5px 5px;
+}
+#content p.quandocomunicato span.date-display-single{
+	font: normal .8em/1em Georgia, Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	visibility: visible;
+}
+#content p.quandocomunicato span.mese{
+	font: bold .75em/1em Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 0px;
+	visibility: visible;
+}
+#content p.tipoevento{
+	font: italic 1.1em/1em Georgia, Garamond, Times, "Times New Roman", serif;
+	margin:3px 0 3px 6px;
+	padding:3px 0 0 0px;
+}
+#content p.tipoevento a{
+	font: normal .75em/1em Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+#content .colright p.tutte, #content .colleft p.tutte {
+	font: bold .76em/1em Verdana, Arial, Helvetica, sans-serif;
+	background: url(../img/arrow.gif) no-repeat left center;
+	text-transform:uppercase;
+	margin:8px 0 14px 3px;
+	padding:0 12px;
+}
+p.today span.luogo{
+	font: bold 70% Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+p.today span.mese{
+	font: normal 70% Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#content #comunicati p.quandocomunicato{
+	font: normal small-caps 1em/1em Georgia, Garamond, Times, "Times New Roman", serif;
+	letter-spacing: 0px;
+	padding:5px;
+}
+#content #comunicati p.quandocomunicato span.mese{
+	font: bold small-caps .9em/1em Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	visibility: visible;
+}
+#content .colright p.tipoevento{
+	margin:6px 0 3px 6px;
+	padding:0;
+}
+#content .colright p.tipoevento a{
+	margin:0 0 0 6px;
+}
+#content .colleft p.quandoterritorio{
+	margin:-10px 0 2px 0;
+}
+#content .colleft p.quandocomunicato{
+	margin:4px 0 2px 0;
+}
+#content #main ul li{
+	list-style-type: none;
+	margin: 5px;
+}
+#content #main ol li{
+	list-style-type: decimal;
+	margin: 5px;
+}
+/*TYPOGRAPHY PAGG INTERNE GENERICHE*/
+#content #mainInt h1{
+	font: normal 200%/110% Georgia, "Times New Roman", Times, serif;
+	border-bottom: none;
+	text-transform: none;
+	letter-spacing: 0;
+	color: #730300;
+	margin-bottom:10px;
+	margin-left: 0;
+	padding: 0;
+	clear: left;
+}
+#content #mainInt h2{
+	font: normal 160%/110% Georgia, "Times New Roman", Times, serif;
+	color: #730300;
+	text-transform:none;	
+	margin:6px 0 3px 0;
+	padding:0;
+	clear: left;
+}
+#content #mainInt h3{
+	/*font: normal 140%/110% Georgia, "Times New Roman", Times, serif;
+	color: #730300;
+	text-transform:none;	
+	margin:10px 0 3px 0;
+	padding:0;
+	clear: left;*/
+}
+#content #mainInt h4{
+	font: normal 140%/110% Georgia, "Times New Roman", Times, serif;
+	color: #730300;
+	text-transform:none;	
+	margin:10px 0 3px 0;
+	padding:0;
+	clear: left;
+}
+#content #mainInt h5{
+	font: normal 140%/110% Georgia, "Times New Roman", Times, serif;
+	color: #730300;
+	text-transform:none;	
+	margin:10px 0 3px 0;
+	padding:0;
+	clear: left;
+}
+#content #mainInt h6{
+	font: normal 140%/110% Georgia, "Times New Roman", Times, serif;
+	color: #730300;
+	text-transform:none;	
+	margin:10px 0 3px 0;
+	padding:0;
+	clear: left;
+}
+#content #mainInt p{
+	padding:2px 0;
+}
+#content #mainInt .colleft ul{
+	margin:.5em .5em;
+}
+#content #mainInt .colleft ol{
+	margin:.5em 1em;
+}
+#content #mainInt .colleft ul li{
+	list-style-type: square;
+}
+#content #mainInt .colleft ol li{
+	margin:.5em 1em;
+	margin-left: 1.5em;
+	list-style-type: decimal;
+}
+/*calendario eventi in hp*/
+#main .colleft #calendario{
+	margin: 10px 0 10px 5px;
+	border: solid 1px #ccc;
+	width:auto !important;
+	width:95%;
+}
+#main .colleft #calendario h1{
+	background-color:#F0F0F0;
+	color:#000000;
+	border-top: none;
+	border-bottom: none;
+	letter-spacing:2px;
+	margin:0px 0px 0px 0px !important;	
+	margin:0px -20px 0px 0px;	
+	padding:5px;
+}
+#main .colleft #calendario h2{
+	font:bold .75em/1.2em Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: solid 1px #ccc;
+	text-transform: uppercase;
+	letter-spacing:2px;
+	margin:15px 10px 5px 10px;
+	padding:0px;
+}
+#main .colleft p.nextdays{
+	width: 98.5%;
+	margin: 7px 0 0 0;
+	padding: 0 0 3px 5px;
+	border-bottom: solid 1px #ccc;
+	}
+#main .colleft p.nextdays a{
+	font: .75em/1.2em Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing:1px;
+	margin:0 -1px 0 0;
+	padding:3px 5px 5px 5px;
+	border-top: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	}
+#content .colright p.nextdays a span.current{
+	visibility: visible;
+	font-weight: bold;
+	}
+#content #calendario dl dt{
+	font: bold .9em/1.3em Verdana, Arial, Helvetica, sans-serif;
+	margin:8px 10px 0px 10px;
+	}
+#content #calendario dl dd{
+	font: normal .7em/1.3em Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	margin:0px 10px 8px 10px;
+	}
+
+
+
+/*struttura contenuti pagine interne*/
+#content #mainInt{
+	padding:4px 8px 5px 8px;
+}
+#content #mainInt table{
+	width:100% !important;
+	width:99%;
+}
+#content #mainInt td.colleft{
+	padding: 0 5px;
+}
+#content #mainInt td.colright{
+	border-left:1px solid #CDCDCD;
+	width:170px; 
+	padding-left:5px;
+	display: none;
+}
+#content #mainInt td#colleft{
+	padding: 0 5px;
+}
+#content #mainInt td#colright{
+	border-left:1px solid #CDCDCD;
+	width:170px; 
+	padding-left:5px;
+	display: none;
+}
+/* autore data stampa e invia */
+#content .meta{
+	display:none;
+}
+/*CONTENT PER PAGINE INTERNE*/
+/*menu di secondo livello pagine interne*/
+#content #pageMenu{display: none;}
+#content #pageMenu dl{	
+	width:160px;
+	margin:0px 2px 0 0px;
+	padding:0px;
+}
+#content #pageMenu dl dt{	
+	font: bold .85em/1em Verdana, Arial, Helvetica, sans-serif;
+	background-color:#F5F4F0;
+	color:#000000;
+	border: none;
+	letter-spacing: 0px;
+	text-transform:uppercase;
+	padding:6px 10px 10px 10px;
+}
+#content #pageMenu dl dd {	
+	font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+	display:block;
+	margin:0;
+}
+#content #pageMenu dd a{
+	display:block;
+	border-top: 1px dashed #E0E0E0;
+	padding: 5px;
+}
+#content #pageMenu dd.more a{
+	display:block;
+	border-top: 1px dashed #E0E0E0;
+}
+#content .interna #navigaSezione #pageMenu dd.moreOpen a{
+	display:block;
+	border-top: 1px dashed #E0E0E0;
+}
+#content #pageMenu dl a:link{text-decoration:none;} 
+#content #pageMenu dl a:visited{text-decoration:none;} 
+#content #pageMenu dl a:hover{text-decoration: underline;} 
+#content #pageMenu dl a:active{text-decoration:none;}
+#content #pageMenu dl dd ul{	
+	font: normal .9em Verdana, Arial, Helvetica, sans-serif;
+	display:block;
+	margin:0;
+	padding:0px 0 0px 0;
+}
+#content #pageMenu dl dd ul li{	
+	list-style-type: none;
+	list-style-position:outside;
+}
+#content #pageMenu dl dd ul li a{
+	border-top: 0px dashed #E0E0E0;
+	padding: 5px 5px 5px 15px;
+}
+
+
+
+
+/*pagg correlate*/
+#content-top{
+	background-color: #fffee3;
+	margin: 8px 2px 8px 0;
+	padding: 10px;
+	border-top:1px #CCCCCC dashed;
+	/*border-bottom:1px #CCCCCC dashed;*/
+}
+
+#content-top h3{
+	font: bold .85em/1.4em Verdana, Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	margin: 0px 0px 8px 0px;
+}
+
+#content-top a{
+	background: url(../img/arrow.gif) no-repeat left center;
+	margin: 0px 5px 5px 0px;
+	padding-left: 12px;
+	display: block;
+}
+/* TABS extra per mostra e modifica - solo per autori */
+/**************** tabs styles ****************/
+.tabs {
+	text-align: right;
+	width: 98%;
+	margin: 0 1% 0 0;
+}
+#content #mainInt .colleft .tabs ul li{
+	background: none;
+	padding-left: 0;
+}
+.tabs ul.primary {
+	font-size: 110%;
+	border-collapse: collapse;
+	padding: 0 1.3em 0 .5em;
+	white-space: nowrap;
+	list-style: none;
+	margin: 5px 0 8px 0;
+	height: auto;
+	line-height: normal;
+	border-top: 1px solid #bbb;
+}
+.tabs ul.primary li {
+	display: inline;
+	margin:0;
+	padding: 0;
+}
+.tabs ul.primary li a {
+	color: #6DA6E2;
+	background-color: #ddd;
+	border-color: #bbb;
+	border-width: 1px;
+	border-style: none solid solid solid;
+	height: auto;
+	margin: 0;
+	padding: 0 1.5em .2em 1.5em;
+	text-decoration: none;
+}
+.tabs ul.primary li.active a {
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	border-top: #fff 1px solid;
+	margin: 0;
+}
+.tabs ul.primary li a:hover {
+	background-color: #eee;
+	border-color: #ccc;
+	border-top-color: #eee;
+	margin: 0;
+}
+div.go p{
+	display: inline;
+}
+/*path*/
+#content .path{
+	font-size:90%;
+	color:#333333;
+	margin: 6px 0 0 17px;
+	padding:2px 8px 0px 0px;
+}
+#content .path span{
+	font-size:80%;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:#666666;
+	margin-right: 5px;
+}
+#content .niente{
+	font-size:90%;
+	color:#333333;
+	margin-left: 15px;
+	padding:2px 8px 0px 8px;
+}
+#content .niente span{
+	font-size:80%;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:#666666;
+	margin-right: 5px;
+}
+/* nuovi bannerlink */
+#content #listabanner{
+	border: 1px solid #E0E0E0;
+	padding-bottom: 4px;
+	float: left;
+	/*background-color: #fffbf2;*/
+}
+#content #listabanner h2{
+	font: bold .8em/1em Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #6c0c08;
+	background-color: #f2f2f2;
+	margin: 3px 2px 0 3px;
+	padding: 3px 5px;
+}
+#content .box{
+	border-top: 1px dashed #E0E0E0;
+	width: 195px !important;
+	width: 188px;
+	margin:3px 3px 0 3px;
+	padding:5px 2px 0px 2px;
+	position: relative;
+	float: left;
+	clear: left;
+}
+#content .box h2{
+	font: bold .8em/1em Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #6c0c08;
+	margin: 0;
+	padding: 0;
+}
+#content .box p{
+	font-size: 85% !important;
+	font-size: 80%;
+	line-height: 120%;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+#content .box img{
+	border:3px double #CDCDCD;
+	width:60px;
+	height:60px;
+	margin-right: 7px;
+	float: left;
+	}
+#content .box img:hover{
+	border:3px solid #CDCDCD;
+	}
+#content .box span{
+	font: bold 110% Georgia,serif;
+	color: #6c0c08;
+}
+/*************HOMEPAGE DI TEMA*************/
+#mainInt .intro{
+}
+#mainInt .intro .floatLeft{
+	width:220px;
+	float:left;
+}
+#mainInt .intro .floatRight{
+	margin-left:230px;
+}
+#mainInt .floatLeft{
+	width:220px;
+	float:left;
+}
+#mainInt .floatRight{
+	margin-left:240px;
+}
+#mainInt .floatLeft h1{
+	margin-top:0px;
+}
+
+#mainInt div.intro {
+	background-color: #f9f3f3;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+#mainInt div.intro h3{
+	font: bold .85em/1.4em Verdana, Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color: #555;
+	border-bottom: 1px solid #CDCDCD;
+	padding-bottom: 3px;
+}
+#mainInt p.introtext{
+	font: normal 110%/160% Verdana, Helvetica, Arial, sans-serif;
+	color: #333;
+}
+#mainInt div.intro div.floatLeft{
+	padding: 0px 25px 5px 8px;
+	}
+#mainInt div.intro div.floatLeft div.assessore{
+	padding: 0 10px 0 0;
+	}
+#mainInt div.intro div.floatLeft div.assessore dl{
+	margin: 3px 0 10px 0;
+	}	
+#mainInt div.intro div.floatLeft div.assessore dl dd{
+	font-size: 120%;
+	}	
+#mainInt div.intro div.floatLeft div.assessore dl dt{
+	font: normal 85%/125% Verdana, Helvetica, Arial, sans-serif;
+	margin-top: 2px;
+	}
+#mainInt div.intro div.floatLeft div.assessore dl dt.goto{
+	font: normal 90%/125% Verdana, Helvetica, Arial, sans-serif;
+	background: url(../img/icons/arrow_mini.gif) no-repeat 0px 4px;
+	margin-top: 5px;
+	padding-left:8px;
+	}
+#mainInt div.intro div.floatRight{
+	background-color: #e2ede5;
+	border-left: solid 10px #FFFFFF;
+	}
+
+#mainInt div.intro div.floatRight div.settuff{
+	padding: 10px 10px 5px 15px;
+	}
+#mainInt div.intro div.floatRight div.settuff ul{
+	margin: 4px 0 5px 0;
+	}
+#mainInt div.intro div.floatRight div.settuff ul li{
+	font: normal 90%/135% Verdana, Helvetica, Arial, sans-serif;
+	background: url(../img/icons/arrow_mini.gif) no-repeat 0px 4px;
+	border-bottom: 1px dashed #CDCDCD;
+	margin: 4px 0 0 0;
+	padding:0 0 5px 8px;
+	list-style-type: none;
+	}
+/*singola notizia*/
+
+#content #mainInt .colleft .go{
+	border-top:1px solid #F0F0F0;
+	border-bottom:1px solid #F0F0F0;
+	margin:5px 0 10px 3px;
+	padding:7px 0;
+}
+
+#content #mainInt .colleft p.place{
+    font: bold .85em/1.2em Verdana, Helvetica, sans-serif;
+	text-transform:uppercase;
+	background: url(../img/icons/place.gif) no-repeat left center;
+	color:#730300;
+	padding:7px;
+	padding-left:26px;
+	width:auto;
+	margin:2px;
+	display:inline;
+}
+
+#content #mainInt .colleft p.date{
+    font: bold .85em/1.2em Verdana, Helvetica, sans-serif;
+	text-transform:uppercase;
+	background: url(../img/icons/datecal.gif) no-repeat left center;
+	color:#000000;
+	padding:7px;
+	padding-left:26px;
+	width:auto;
+	margin:2px;
+	display:inline;
+}
+
+
+/* inizio pagina biblioteche*/
+
+#content #mainInt .colleft p.book{
+	background: url(../img/icons/book.gif) no-repeat left center;
+	color:#666666;
+	padding:7px;
+	padding-left:26px;
+	width:auto;
+	margin:2px;
+	display:inline;
+}
+
+
+#content #mainInt .colleft .map{
+	padding: 2px;
+	clear:left;
+}
+
+#content #mainInt .colleft .map .cartina img{
+	border: 3px double #ccc;
+	margin-right: 10px;
+	float:left;
+}
+
+#content #mainInt .colleft .map .comuni{
+}
+
+#content #mainInt .colleft .map .comuni h3{
+color:#000000;
+margin-left:5px;
+}
+
+#content #mainInt .colleft .floating {
+	word-wrap: break-word;
+    float:left; 
+	width:50%;
+}
+
+#content #mainInt .colleft .floating dl {
+    margin:6px 1em 10px 0;
+	padding:5px;
+}
+
+#content #mainInt .colleft .floating dl dd {
+    margin:0px 0em 6px 0;
+}
+
+
+#content #mainInt .colleft .floating h3{
+	color: #000000;
+	border-bottom: 1px solid #CDCDCD;
+	margin:4px 0px 0px 5px;	
+}
+
+#content #mainInt .colleft .organigramma {
+margin-top:0px; 
+margin-bottom:10px;
+border:solid 1px #cdcdcd;
+padding:5px;
+}
+
+.sizer .expander .innerwrapper #container #wrapper #content #mainInt .colleft .organigramma dt {
+    margin:10px 1em 3px 0;
+}
+
+
+
+#content #mainInt .colleft .organigramma span.ruolo{
+font: normal .85em/1.3em Arial, Helvetica, sans-serif;
+visibility:visible;
+text-transform:uppercase;
+}
+
+#content #mainInt .colleft .organigramma ul li.tel{
+	background:url(../img/icons/ico_tel.gif) no-repeat;
+}
+#content #mainInt .colleft .organigramma ul li.posta{
+	background:url(../img/icons/ico_mail.gif) no-repeat;
+}
+#content #mainInt .colleft .organigramma h3{
+	font: bold 0.9em/1.4em Arial, sans-serif;
+	text-transform:uppercase;
+	margin-top:15px; 
+	color: #000000;
+	border-bottom: 1px solid #CDCDCD;
+}
+#content #mainInt .colleft .organigramma h3.sfondo{
+	background-color:#F0F0F0;
+	border-top: none;
+	border-bottom: none;
+	margin:0px;	
+	padding: 3px 5px 1px 5px;
+	font: bold .9em/1.4em Arial, sans-serif;
+	letter-spacing:0px;
+}
+#content #mainInt .colleft .organigramma dl {
+	margin:0 1em 0px 0;
+	padding:5px;
+}
+
+#content #mainInt .colleft dl dt{
+    font: bold .85em/1.5em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	margin:0 1em 0px 0;
+	padding-bottom:0px;
+}
+
+#content #mainInt .colleft .organigramma table{
+	font: 1em/1.5em Verdana, Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	width:100%;
+	margin-top:0px;
+	margin-bottom:0px; 
+}
+#content #mainInt .colleft .organigramma table th{
+/*	border-top:solid 1px #b1b1b1;
+	border-bottom:solid 1px #b1b1b1; 
+*/	padding:5px;
+	font: .9em/1.5em Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-align:left;
+	
+	
+}
+#content #mainInt .colleft .organigramma table td.persona{
+/*	border-bottom:solid 1px #b1b1b1;
+*/	width:160px;
+	padding:7px 5px 0px 5px;
+	font-weight:bold;
+}
+#content #mainInt .colleft .organigramma table td.ruolo{
+/*	border-bottom:solid 1px #b1b1b1;
+*/		padding:7px 5px 0px 5px;
+
+}
+#content #mainInt .colleft .organigramma table td.recapiti{
+/*	border-bottom:solid 1px #b1b1b1;
+*/		padding:7px 5px 0px 5px;
+
+}
+#content #mainInt .colleft .organigramma table td dl{
+margin:0;
+padding:0px;
+
+}
+#content #mainInt .colleft .organigramma ul{
+	margin:0;
+	padding:0;
+}
+#content #mainInt .colleft .organigramma ul li{
+	list-style-type:none;
+	margin:0;
+	padding-left:22px;
+}
+
+
+/* inizio pagine faq*/
+
+#content #mainInt .colleft h3.catfaq{
+	font: normal 0.85em/1.4em Arial, sans-serif;
+	text-transform:uppercase;
+	color: #000000;
+	border-bottom:1px dotted #cdcdcd;
+	margin:10px 0px 0px 5px;	
+	padding:0px 0px 3px 0px;
+}
+
+#content #mainInt .colleft .faq h3{
+	font: normal 1.3em/1.5em Georgia, "Times New Roman", Times, serif;
+	text-transform:none;
+	color: #000000;
+	border-bottom: none;
+	background: url(../img/icons/question.gif) no-repeat 0px 5px;
+	margin:12px 0px 3px 5px;	
+	padding:0px 0px 0px 23px;
+}
+/* fine aggiunte matteo*/
+
+/*ARCHIVIO NOTIZIE*/
+#content #mainInt .colleft .arcnot{
+border-top:dashed 1px #e0e0e0;
+margin:1px 0px 0px 0;	
+padding:3px 0 10px 0;
+}
+
+#content #mainInt .colleft .arcnot h3{
+	font: normal 1.3em/1.5em Georgia, "Times New Roman", Times, serif;
+	text-transform:none;
+	color: #000000;
+	border-bottom: none;
+	background: url(../img/icons/notizia.gif) no-repeat 0px 3px;
+	margin:6px 0px 0px 5px;	
+	padding:0px 0px 0px 23px;
+}
+
+#content #mainInt .colleft h3.catnot{
+	font: normal .8em/1.4em Verdana,Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	margin:6px 0px 0px 5px;	
+	padding:3px 0px 3px 0px;
+	color: #000000;
+	border-top:1px dashed #cdcdcd;
+}
+#content #mainInt .colleft h3.catnot span.mese{
+	font-weight: bold;
+}
+#content #mainInt .colleft h3.catnot span.anno{
+	font: normal 1.2em/1.4em Georgia, serif;
+}
+#content #mainInt .colleft .arcnot h4{
+	font: bold 0.7em/1.5em Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #202020;
+	border-bottom: none;
+	margin:6px 0px 0px 28px;	
+	padding:0;
+}
+
+#content #mainInt .colleft .arcnot p{
+	font: 1em/1.4em Verdana, Arial, Helvetica, sans-serif;
+	text-transform: none;
+	color: #5C5C5C;
+	margin:0;
+	padding:0 5px 0 28px;
+}
+#content #mainInt .colleft .arcnot p.data{
+	font: 0.75em/1em Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #5C5C5C;
+	letter-spacing: 1px;
+	margin:6px 0 0 28px;
+	padding:0;
+}
+
+#content #mainInt .colleft .arcnot p.luogo{
+    font: bold .85em/1.2em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	padding:0 0 0 26px;
+	margin:2px;
+	color:#730300;
+}
+/*ripristina gli allineamenti dopo i floating*/
+.clear{
+	width:100%;
+	margin:-1px 0;
+	clear:left;
+}
+/* PIE DI PAGINA */
+#footer{
+/*	display: none;
+*/}
+#footer p{
+	font-size:0.9em;
+	line-height:1.4em;
+	padding-top:14px !important;
+	padding-top:0px;
+}
+#footer p a.mail{
+	background: url(../img/icons/mail.gif) no-repeat 0px 1px;
+	padding-left:21px;
+}
+#footer p.back{
+	display:none;
+}
+/* feed */
+#mainInt .colleft p.feed {
+	font: bold .7em/1.4em Verdana, Arial, Helvetica, sans-serif !important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-bottom:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	margin:18px 5px;
+}
+#mainInt .colleft p.feed a img{
+	padding-right:5px;
+}
+/*tabella allegati*/
+#attachments{
+	background-color: #fefcc7;
+	margin: 1em auto;
+	border-collapse: separate;
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	padding: 5px 0;
+}
+#attachments th,#attachments td {
+	padding: .2em;
+}
+#attachments th {
+	font: bold .7em/1.4em Verdana, Arial, Helvetica, sans-serif !important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/*PAGINA RICERCHE*/
+#content #mainInt .colleft h2.catris{
+	font: normal 0.85em/1.4em Arial, sans-serif;
+	color: #000000;
+	text-transform:uppercase;
+	border-bottom:1px dotted #cdcdcd;
+	margin:6px 0px 0px 5px;	
+	padding:0px 0px 3px 0px;
+}
+#content #mainInt .colleft .ris{
+	margin:6px 0px 0px 5px;	
+	padding:0px 0 10px 0;
+}
+#content #mainInt .colleft .ris h3{
+	font: normal 1.3em/1.5em Georgia, "Times New Roman", Times, serif;
+	color: #000000;
+	text-transform:none;
+	border-bottom: none;
+	background: url(../img/icons/linkto.gif) no-repeat 0px 4px;
+	margin:6px 0px 3px 5px;	
+	padding:0px 0px 0px 22px;
+}
+#content #mainInt .colleft .ris p{
+	font: 0.9em/1.4em Verdana, Arial, Helvetica, sans-serif;
+	margin:0 0 0 8px;
+	padding:0 5px 0 20px;
+
+}
+/*stampa old*/
+#content #mainInt p.printit {
+	display: none;
+}
+
+
+
+#risultati ul.lettere li,#risultati ul.lettere li a{
+display:inline;
+list-style:none;
+margin: 0 5px 0 0;
+padding:0;
+background:none;
+}
+
+/* PIE DI PAGINA */
+#footer{
+	background:none;
+	background-position: 10px 14px !important;
+	background-position: 10px 1px;
+	padding-left:75px;
+	position:relative;
+	height:100px;
+	padding-bottom:10px;
+}
+#footer p.info{
+	font-size:0.9em;
+	line-height:1.4em;
+	position:absolute;
+	padding-left:10px;
+	border-left:1px dashed #ccc;
+	top:10px;
+	left:90px;	
+}
+#footer p.printit{
+	background: url(../img/icons/print.gif) no-repeat 0px 1px    !important;
+	background: url(../img/icons/print.gif) no-repeat 0px -2px;
+	padding-left:25px;
+	position:absolute;
+	top:10px;
+	right:110px;
+}
+
+
+#footer p.mail{
+	background: url(../img/icons/mail.gif) no-repeat 0px 3px    !important;
+	background: url(../img/icons/mail.gif) no-repeat 0px 1px;
+	padding-left:25px;
+	position:absolute;
+	top:10px;
+	right:200px;
+}
+#footer p.back{
+	background: url(../img/icons/uptotop.gif) no-repeat 0px 3px !important;
+	background: url(../img/icons/uptotop.gif) no-repeat 0px 1px;
+	padding-left:16px;
+	position:absolute;
+	top:10px;
+	right:4px;
+}
+
+#footer p.w3c{
+	position:absolute;
+	top:23px;
+	right:18px;
+}
+
+#footer p.css{
+	position:absolute;
+	top:23px;
+	right:115px;
+}
+
+
+#footer img{
+	margin:25px 0 5px 5px
+}

@@ -1,0 +1,17 @@
+{
+	"sProcessing": "Caricamento dati...",
+	"sLengthMenu": "Mostra _MENU_ elementi per pagina",
+	"sZeroRecords": "Nessun risultato disponibile",
+	"sInfo": "Visualizzati elementi da _START_ a _END_ su un totale di _TOTAL_",
+	"sInfoEmpty": "Nessun elemento da visualizzare",
+	"sInfoFiltered": "(filtrati da un totale di _MAX_ elementi)",
+	"sInfoPostFix": "",
+	"sSearch": "Filtro :",
+	"sUrl": "",
+	"oPaginate": {
+		"sFirst":    "Inizio",
+		"sPrevious": "Indietro",
+		"sNext":     "Avanti",
+		"sLast":     "Fine"
+	}
+}

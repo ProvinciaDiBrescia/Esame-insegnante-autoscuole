@@ -1,0 +1,47 @@
+p.today {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	top: 0;
+}
+
+#export_params ul.button li,
+#exportmenu li ul li ul li,
+#form_dialog ul.line,
+#extra_dialog ul.line,
+#page-v > ul li ul li ul,
+#page-i > ul li ul li ul,
+#page-r > ul li ul li ul,
+#page-f > ul li ul li ul,
+#page-l > ul li ul li ul
+#page-v > ul li,
+#page-i > ul li,
+#page-r > ul li,
+#page-f > ul li,
+#page-l > ul li 
+{
+	display: inline;
+	zoom: 1;
+}
+
+#export_params {
+	overflow: hidden;
+	position: relative;
+}
+
+#export_params ul{
+	position: relative;
+}
+#export_dialog select {
+	float: left;
+	margin-top: 10px;
+	width: 585px;
+}
+#export_params ul li.title span {
+	display: inline;
+	top: 0;
+	zoom: 1;
+	margin-top: -20px;
+}
+#export_params ul li.title  {
+	/*position: relative;*/
+}
