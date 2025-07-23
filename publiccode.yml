@@ -1,6 +1,6 @@
 publiccodeYmlVersion: 0.4.0
-name: Esami Autoscuole
-url: https://github.com/ProvinciaDiBrescia/Motorizzazione-Autoscuole
+name: Esame Insegnante Autoscuole
+url: https://github.com/ProvinciaDiBrescia/Esame-insegnante-autoscuole
 platforms:
   - web
 categories:
@@ -12,10 +12,10 @@ softwareType: standalone/web
 description:
   it-IT:
     shortDescription: Gestione questionari d'esame per l'esame di abilitazione ad
-      istruttore presso le autoscuole
+      insegnante di teoria presso le autoscuole
     longDescription: Il programma consente la gestione della domande, la generazione
       dei questionari e la stampa delle schede di esame per l'abilitazione ad
-      istruttore presso le autoscuole
+      insegnante di teoria presso le autoscuole
     features:
       - Gestione utenti
       - Gestione domande

@@ -1,9 +1,9 @@
-# Motorizzazione-Autoscuole
-Strumento per la gestione dei quiz per gli esami di istruttore per autoscuole
+# Esame istruttori autoscuole
+Strumento per la gestione dei quiz d'esame per l'abilitazione di insegnante di autoscuola
 
 ## Panoramica del progetto
 
-Pubblicazione progetto gestione esami autoscuole
+Pubblicazione progetto gestione esami per l'abilitazione di insegnante di autoscuola
 
 ---
 
