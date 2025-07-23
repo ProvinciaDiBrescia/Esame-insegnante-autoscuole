@@ -1,0 +1,31 @@
+publiccodeYmlVersion: 0.4.0
+name: Esami Autoscuole
+url: https://github.com/ProvinciaDiBrescia/Motorizzazione-Autoscuole
+platforms:
+  - web
+categories:
+  - document-management
+usedBy:
+  - Provincia di Brescia
+developmentStatus: obsolete
+softwareType: standalone/web
+description:
+  it-IT:
+    shortDescription: Gestione questionari d'esame per l'esame di abilitazione ad
+      istruttore presso le autoscuole
+    longDescription: Il programma consente la gestione della domande, la generazione
+      dei questionari e la stampa delle schede di esame per l'abilitazione ad
+      istruttore presso le autoscuole
+    features:
+      - Gestione utenti
+      - Gestione domande
+      - Generazione questionari
+      - Stampa schede d'esame
+legal:
+  license: EUPL-1.2
+maintenance:
+  type: internal
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it-IT
