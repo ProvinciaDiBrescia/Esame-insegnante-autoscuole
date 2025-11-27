@@ -1,4 +1,4 @@
-publiccodeYmlVersion: 0.4.0
+publiccodeYmlVersion: 0.5.0
 name: Esame Insegnante Autoscuole
 url: https://github.com/ProvinciaDiBrescia/Esame-insegnante-autoscuole
 platforms:
@@ -25,6 +25,10 @@ legal:
   license: EUPL-1.2
 maintenance:
   type: internal
+  contacts:
+    - name: Stefano Franceschini
+      email: sfranceschini@provincia.brescia.it
+      phone: "0303748516"
 localisation:
   localisationReady: false
   availableLanguages:
